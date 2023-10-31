@@ -1,0 +1,151 @@
+.last-slide {
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: linear-gradient(143deg, #4668bea6 10%, #001446 100%);
+    /* background-image: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%); */
+    /* clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%); */
+    /* position: relative; for box nedded */
+}
+
+
+.last-slide-left {
+    height: 10vh;
+    width: 100%;
+    /* display: flex;
+     position: relative; for box nedded */
+    flex-wrap: wrap;
+    /* flex-direction: column;
+    align-items: center; */
+}
+
+.last-slide-left>h1 {
+    color: #333333;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 2.3em;
+}
+
+/* .crossBox {
+
+    border-radius: 5px;
+    height: 76vh;
+    width: 100%;
+    right: 60%;
+    position: absolute;
+    comment this line background-color: grey; 
+    transform: rotate(42deg);
+    animation: border 2s ease-in-out 0s infinite;
+} */
+
+/* 
+@keyframes border {
+    0% {
+        border: 0px dotted #ffffff;
+    }
+
+    20% {
+        border: 3px solid #0f2a70;
+    }
+
+    40% {
+        border: 6px dotted #ffffff;
+    }
+
+    60% {
+        border: 4px solid #0f2a70;
+    }
+
+    80% {
+        border: 2px solid #0f2a70;
+    }
+
+    100% {
+        border: 1px dotted #ffffff;
+    }
+} */
+
+.last-slide-right {
+    width: 100%;
+    height: 80vh;
+}
+
+.last-slide-right>form {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    height: 52vh;
+    padding: 3rem;
+}
+
+.last-slide-right>form>input {
+    /* background-color: #6c77be; */
+    /* background-color: #faecec; */
+    border-style: none;
+    border-radius: 4px;
+    box-shadow: 3px 1px 5px black;
+    margin: 5px;
+    width: 40%;
+    height: 5vh;
+}
+
+.last-slide-right>form>input:nth-child(5) {
+    border-style: none;
+    border-radius: 4px;
+    box-shadow: 3px 1px 5px black;
+    margin-left: 7.8em;
+    width: 36%;
+    height: 4vh;
+}
+
+.last-slide-right>form>textarea {
+    border-style: none;
+    border-radius: 4px;
+    box-shadow: 3px 1px 5px black;
+    margin: 5px;
+    width: 40%;
+    height: 10vh;
+}
+
+
+.btn-submit {
+    border-style: none;
+    background-color: #343fae;
+    color: #fff;
+    border-radius: 5px;
+    width: 25%;
+    height: 4.6vh;
+    font-size: 0.74rem;
+    letter-spacing: 2px;
+    text-align: center;
+    outline: 2px solid #424cbf;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+}
+
+.btn-submit:hover {
+    /* background-color: #042f49; */
+    background-color: #011958;
+    outline-color: #001446;
+    outline-offset: 4px;
+    animation: resume 1s ease-in-out infinite;
+
+}
+
+@keyframes resume {
+    0% {
+        font-weight: 400;
+    }
+
+    50% {
+        font-weight: 600;
+    }
+
+    100% {
+        font-weight: 100;
+    }
+}
